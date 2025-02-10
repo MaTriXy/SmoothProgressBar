@@ -22,15 +22,15 @@ The lib is now on Maven Central. All you have to do is add it on your gradle bui
 ```groovy
 dependencies {
     // of course, do not write x.x.x but the version number
-    compile 'com.github.castorflex.smoothprogressbar:library:x.x.x'
+    implementation 'com.github.castorflex.smoothprogressbar:library:x.x.x'
     // or
-    compile 'com.github.castorflex.smoothprogressbar:library-circular:x.x.x'
+    implementation 'com.github.castorflex.smoothprogressbar:library-circular:x.x.x'
 }
 ```
 You can find the last stable version on [Gradle Please]
 
 
-Or you can try the latest snapshots:
+Or you can try the latest snapshots: ![](https://img.shields.io/nexus/s/com.github.castorflex.smoothprogressbar/library?label=smoothprogressbar&server=https%3A%2F%2Foss.sonatype.org) ![](https://img.shields.io/nexus/s/com.github.castorflex.smoothprogressbar/library-circular?label=circular&server=https%3A%2F%2Foss.sonatype.org)
 
 ```groovy
 repositories {
@@ -38,8 +38,8 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.castorflex.smoothprogressbar:library:1.0.1-SNAPSHOT@aar'
-    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.1-SNAPSHOT@aar'
+    implementation 'com.github.castorflex.smoothprogressbar:library:1.4.0-SNAPSHOT'
+    implementation 'com.github.castorflex.smoothprogressbar:library-circular:1.4.0-SNAPSHOT'
 }
 ```
 
@@ -173,9 +173,9 @@ limitations under the License.
 
 #### Badges
 
-Travis master: [![Build Status](https://travis-ci.org/castorflex/SmoothProgressBar.svg?branch=master)](https://travis-ci.org/castorflex/SmoothProgressBar)
+CI master: ![](https://github.com/castorflex/smoothprogressbar/actions/workflows/build.yml/badge.svg?branch=master)
 
-Travis dev: [![Build Status](https://travis-ci.org/castorflex/SmoothProgressBar.svg?branch=dev)](https://travis-ci.org/castorflex/SmoothProgressBar?branch=dev)
+CI dev: ![](https://github.com/castorflex/smoothprogressbar/actions/workflows/build.yml/badge.svg?branch=dev)
 
 
 [blog post]: http://antoine-merle.com/blog/2013/11/12/make-your-progressbar-more-smooth/
